@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    cache: false #�����رջ��� ��Ȼû������ʵʱҳ��
+    mode: LEGACYHTML5  #�÷��ϸ��HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
