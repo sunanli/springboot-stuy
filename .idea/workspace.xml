@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="076183c1-aeb1-42bf-9f4b-984995252117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jquery_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_sockjs_client_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_stomp_websocket_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/tangwh/bean/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/tangwh/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/sockjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/stomp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-excel/target/test-classes/META-INF/springboot-excel.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-excel/target/test-classes/com/tangwh/model/WriteModel$WriteModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-excel/target/test-classes/com/tangwh/model/WriteModel$WriteModelBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-excel/target/test-classes/com/tangwh/model/WriteModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-excel/target/test-classes/com/tangwh/model/WriteModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/tangwh/SpringbootWebsocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/tangwh/SpringbootWebsocketApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/tangwh/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/tangwh/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/tomp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/target/classes/com/tangwh/SpringbootWebsocketApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/target/classes/com/tangwh/SpringbootWebsocketApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/target/classes/com/tangwh/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/target/classes/com/tangwh/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/target/classes/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/target/classes/static/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/target/classes/static/js/socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/target/classes/static/js/tomp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/target/classes/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="076183c1-aeb1-42bf-9f4b-984995252117" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/springboot-websocket/target/" />
     <ignored path="$PROJECT_DIR$/springboot-excel/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +18,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="250">
               <caret line="98" column="87" selection-start-line="98" selection-start-column="87" selection-end-line="98" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -600,7 +570,7 @@
       <workItem from="1576717104525" duration="701000" />
       <workItem from="1576731920593" duration="9727000" />
       <workItem from="1576742437335" duration="3379000" />
-      <workItem from="1576804350270" duration="18067000" />
+      <workItem from="1576804350270" duration="18337000" />
     </task>
     <task id="LOCAL-00001" summary="导出Excel的多样性">
       <created>1576745899248</created>
@@ -637,7 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576832107038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="使用webSocket群聊功能">
+      <created>1576832245764</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576832245764</updated>
+    </task>
+    <task id="LOCAL-00007" summary="导出了Word和pdf格式">
+      <created>1576832306673</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576832306673</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -673,7 +657,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34516000" />
+    <option name="totallyTimeSpent" value="34786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,8 +669,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11733333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -705,14 +688,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26057908" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26057908" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32850778" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32850778" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.4521158" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.31848553" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.31848553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -737,7 +720,8 @@
     <MESSAGE value="导出Excel的多样性" />
     <MESSAGE value="添加了导出PDF和word" />
     <MESSAGE value="使用webSocket群聊功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用webSocket群聊功能" />
+    <MESSAGE value="导出了Word和pdf格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="导出了Word和pdf格式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/tomp.js">
@@ -938,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="250">
           <caret line="98" column="87" selection-start-line="98" selection-start-column="87" selection-end-line="98" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
