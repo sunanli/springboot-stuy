@@ -123,7 +123,7 @@ public class ExcelTests {
     @Test
     public void writeExcel1() throws IOException {
         // 文件输出位置
-        OutputStream out = new FileOutputStream("D:\\TestExcel\\test.xlsx");
+        OutputStream out = new FileOutputStream("E:\\TestExcel\\test.xlsx");
 
         ExcelWriter writer = EasyExcelFactory.getWriter(out);
 
@@ -157,7 +157,7 @@ public class ExcelTests {
     @Test
     public void writeExcel2() throws Exception {
         // 文件输出位置
-        OutputStream out = new FileOutputStream("D:\\TestExcel\\test2.xlsx");
+        OutputStream out = new FileOutputStream("E:\\TestExcel\\test2.xlsx");
 
         ExcelWriter writer = EasyExcelFactory.getWriter(out);
 
@@ -195,7 +195,7 @@ public class ExcelTests {
 
     @Test
     public void writeExcelSimple() throws Exception {
-        OutputStream out = new FileOutputStream("D:\\TestExcel\\test2.xlsx");
+        OutputStream out = new FileOutputStream("E:\\TestExcel\\test2.xlsx");
         ExcelWriter writer = EasyExcelFactory.getWriter(out);
         // ==================================== Start ====================================
         // 写仅有一个 Sheet 的 Excel, 此场景较为通用
@@ -245,7 +245,7 @@ public class ExcelTests {
      */
     @Test
     public void writeChongqingExcel() throws Exception {
-        OutputStream out = new FileOutputStream("D:\\TestExcel\\test2.xlsx");
+        OutputStream out = new FileOutputStream("E:\\TestExcel\\test2.xlsx");
         ExcelWriter writer = EasyExcelFactory.getWriter(out);
 
         Sheet sheet1 = new Sheet(1, 0);
