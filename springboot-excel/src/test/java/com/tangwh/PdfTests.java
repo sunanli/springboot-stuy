@@ -19,7 +19,6 @@ public class PdfTests {
     @Test
     public void writePdfSimple() throws Exception {
         Document document = new Document();
-
         PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(PATH));
         document.open();
         document.add(new Paragraph("hello 世界"));
