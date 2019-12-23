@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-excel/springboot-excel.iml" filepath="$PROJECT_DIR$/springboot-excel/springboot-excel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-stuy.iml" filepath="$PROJECT_DIR$/.idea/springboot-stuy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-freemaker/springboot-freemaker.iml" filepath="$PROJECT_DIR$/springboot-freemaker/springboot-freemaker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
     </modules>
   </component>
