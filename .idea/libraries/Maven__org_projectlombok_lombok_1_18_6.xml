@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.projectlombok:lombok:1.18.6">
     <CLASSES>
+<<<<<<< Updated upstream
       <root url="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6-sources.jar!/" />
+=======
+      <root url="jar://E:/maven/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/maven/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/maven/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6-sources.jar!/" />
+>>>>>>> Stashed changes
     </SOURCES>
   </library>
 </component>

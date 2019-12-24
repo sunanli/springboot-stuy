@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.poi:poi:3.17">
     <CLASSES>
+<<<<<<< Updated upstream
       <root url="jar://$USER_HOME$/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.m2/repository/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/" />
+=======
+      <root url="jar://E:/maven/repository/org/apache/poi/poi/3.17/poi-3.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/maven/repository/org/apache/poi/poi/3.17/poi-3.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/maven/repository/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/" />
+>>>>>>> Stashed changes
     </SOURCES>
   </library>
 </component>

@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: com.itextpdf:itextpdf:5.5.13">
     <CLASSES>
+<<<<<<< Updated upstream
       <root url="jar://$USER_HOME$/.m2/repository/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.m2/repository/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13-sources.jar!/" />
+=======
+      <root url="jar://E:/maven/repository/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/maven/repository/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/maven/repository/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13-sources.jar!/" />
+>>>>>>> Stashed changes
     </SOURCES>
   </library>
 </component>
