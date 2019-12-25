@@ -6,27 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-excel" />
-        <module name="springboot-websocket" />
-        <module name="springboot-thymeleaf" />
-        <module name="springboot-freemaker" />
+        <module name="ssmDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="springboot-excel" target="1.8" />
-      <module name="springboot-freemaker" target="1.8" />
-      <module name="springboot-thymeleaf" target="1.8" />
-      <module name="springboot-websocket" target="1.8" />
+      <module name="javassm" target="1.5" />
+      <module name="ssmDemo" target="1.5" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
-      <module name="springboot-excel" options="-parameters" />
-      <module name="springboot-freemaker" options="-parameters" />
-      <module name="springboot-thymeleaf" options="-parameters" />
-      <module name="springboot-websocket" options="-parameters" />
-    </option>
   </component>
 </project>
