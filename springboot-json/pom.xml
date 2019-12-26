@@ -31,12 +31,21 @@
 
             </exclusions>
         </dependency>
-<!--        使用Gson-->
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<!--&lt;!&ndash;        使用Gson&ndash;&gt;-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.google.code.gson/gson &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.google.code.gson</groupId>-->
+<!--            <artifactId>gson</artifactId>-->
+<!--        </dependency>-->
+
+<!--        引入fastJson-->
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.projectlombok</groupId>
