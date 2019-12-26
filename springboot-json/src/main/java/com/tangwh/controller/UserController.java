@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 //@Controller
@@ -24,6 +25,7 @@ public class UserController {
             user.setId(i);
             user.setName("小明"+i);
             user.setAddress("上海"+i);
+            user.setBirthday(new Date());
             users.add(user);
         }
         return users;
