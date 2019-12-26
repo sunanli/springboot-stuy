@@ -16,6 +16,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
+
     // 配置视图解析器
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
