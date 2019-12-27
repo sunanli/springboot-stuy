@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>解决跨域问题</title>
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<input type="button" value="GBT" onclick="getData()">
+<input type="button" value="PUT" onclick="putData()">
+<script>
+    function getData() {
+        $.get("http://localhost:8080/hello",function (msg) {
+            $("#app").html(msg);
+        })
+    }
+    function putData() {
+        alert("点击put")
+       $.ajax({
+           type: 'put',
+           url: "http://localhost:8080/doput",
+           success: function (msg) {
+               $("#app").html(msg);
+           }
+       })
+    }
+    
+</script>
+</body>
+</html>
