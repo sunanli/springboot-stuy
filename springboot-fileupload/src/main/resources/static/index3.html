@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单提交文件上传</title>
+</head>
+<body>
+
+<form action="/uploads" method="post" enctype="multipart/form-data">
+
+<!-- multiple 可以选择多个文件上传-->
+    <input type="file" name="files" multiple>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax上传文件</title>
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="result"></div>
+<input type="file" id="file">
+<input type="button" value="上传" onclick="uploadFile()">
+<script>
+    function uploadFile() {
+
+        //将Jquery对象转化成js对象
+        var file = $("#file")[0].files[0];
+        var forData = new FormData();
+        forData.append("file", file);
+        $.ajax({
+            type:"post",
+            url:"/upload",
+            // 默认为true 是否要把上传的处理为对象
+            processData: false,
+            // 避免让jquery 设置请求头
+            contentType: false,
+            data:forData,
+            success:function (msg) {
+                $("#result").html(msg);
+            }
+
+
+
+        })
+
+
+    }
+
+</script>
+</body>
+</html>
