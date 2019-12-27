@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/springboot-excel/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-json/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cors1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cors2/pom.xml" />
       </list>
     </option>
   </component>
