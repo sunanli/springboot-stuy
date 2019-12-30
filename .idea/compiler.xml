@@ -6,21 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-jsp" />
-        <module name="springboot-excel" />
-        <module name="ssmDemo" />
-        <module name="springboot-fileupload" />
         <module name="springboot-websocket" />
-        <module name="springboot-exception" />
+        <module name="springboot-jsp" />
+        <module name="springboot-servlet" />
+        <module name="springboot-aop" />
+        <module name="ssmDemo" />
+        <module name="springboot-json" />
+        <module name="springboot-interceptor" />
         <module name="springboot-cors2" />
         <module name="springboot-thymeleaf" />
-        <module name="springboot-freemaker" />
-        <module name="springboot-json" />
+        <module name="springboot-exception" />
+        <module name="springboot-excel" />
+        <module name="springboot-pathmapping" />
         <module name="springboot-cors1" />
+        <module name="springboot-fileupload" />
+        <module name="springbooty-webcomponent" />
+        <module name="springboot-freemaker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javassm" target="1.5" />
+      <module name="springboot-aop" target="1.8" />
       <module name="springboot-cors1" target="1.8" />
       <module name="springboot-cors2" target="1.8" />
       <module name="springboot-excel" target="1.8" />
@@ -28,15 +34,20 @@
       <module name="springboot-filesupload" target="1.8" />
       <module name="springboot-fileupload" target="1.8" />
       <module name="springboot-freemaker" target="1.8" />
+      <module name="springboot-interceptor" target="1.8" />
       <module name="springboot-json" target="1.8" />
       <module name="springboot-jsp" target="1.8" />
+      <module name="springboot-pathmapping" target="1.8" />
+      <module name="springboot-servlet" target="1.8" />
       <module name="springboot-thymeleaf" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
+      <module name="springbooty-webcomponent" target="1.8" />
       <module name="ssmDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-aop" options="-parameters" />
       <module name="springboot-cors1" options="-parameters" />
       <module name="springboot-cors2" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
@@ -44,10 +55,13 @@
       <module name="springboot-filesupload" options="-parameters" />
       <module name="springboot-fileupload" options="-parameters" />
       <module name="springboot-freemaker" options="-parameters" />
+      <module name="springboot-interceptor" options="-parameters" />
       <module name="springboot-json" options="-parameters" />
       <module name="springboot-jsp" options="-parameters" />
+      <module name="springboot-pathmapping" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
+      <module name="springbooty-webcomponent" options="-parameters" />
     </option>
   </component>
 </project>
