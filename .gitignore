@@ -179,3 +179,5 @@ nbdist/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+/.idea/compiler.xml
+/.idea/misc.xml
