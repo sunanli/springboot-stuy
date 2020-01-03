@@ -1,7 +1,17 @@
 spring:
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/javaboy?serverTimezone=UTC
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    one:
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/javaboy?serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    two:
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/javaboy2?serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  type-aliases-package: com.tangwh.pojo
+  #mapper-locations: classpath:mapper/*.xml
