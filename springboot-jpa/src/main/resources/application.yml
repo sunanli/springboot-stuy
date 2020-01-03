@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    one:
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/javaboy?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    two:
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/javaboy2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+     #jpa配置单数据源配置
+#  jpa:
+#    show-sql: true
+#    database: mysql
+#    database-platform: mysql
+#    hibernate:
+#      ddl-auto: update
+#      #方言
+#    properties:
+#      hibernate:
+#        di|alect: org.hibernate.dialect.MySQL5Dialect
+    # 多数据源配置
+  jpa:
+    properties:
+      show-sql: true
+      database: mysql
+      database-platform: mysql
+      hibernate:
+        ddl-auto: update
+      #方言
+        dialect: org.hibernate.dialect.MySQL5Dialect
