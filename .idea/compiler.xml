@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-mybatis" />
+        <module name="springboot-jpa" />
         <module name="springboot-websocket" />
         <module name="springboot-jsp" />
         <module name="springboot-servlet" />
@@ -20,6 +20,7 @@
         <module name="springboot-excel" />
         <module name="springboot-pathmapping" />
         <module name="springboot-fileupload" />
+        <module name="springboot-mybatis" />
         <module name="springboot-json" />
         <module name="springboot-freemaker" />
         <module name="springboot-jdbctemplate" />
@@ -38,6 +39,7 @@
       <module name="springboot-freemaker" target="1.8" />
       <module name="springboot-interceptor" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
       <module name="springboot-json" target="1.8" />
       <module name="springboot-jsp" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
@@ -61,6 +63,7 @@
       <module name="springboot-freemaker" options="-parameters" />
       <module name="springboot-interceptor" options="-parameters" />
       <module name="springboot-jdbctemplate" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
       <module name="springboot-json" options="-parameters" />
       <module name="springboot-jsp" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
