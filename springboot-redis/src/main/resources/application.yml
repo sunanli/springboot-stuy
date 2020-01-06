@@ -1,6 +1,8 @@
 spring:
   redis:
-    host: 192.128.91.129
-    # reids \u9ED8\u8BA416\u4E2A\u4ED3 \u4F60\u8981\u9009\u62E9\u90A3\u4E2A
+    host: 192.168.91.129
+    # reids 配置 默认的库 要用哪个库  由于喷配置了security 用户名是user 密码会打印在控制台
     database: 0
     port: 6379
+    password: 120208
+    timeout: 5000
