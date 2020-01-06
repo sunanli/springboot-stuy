@@ -1,1 +1,6 @@
-
+spring:
+  redis:
+    host: 192.128.91.129
+    # reids \u9ED8\u8BA416\u4E2A\u4ED3 \u4F60\u8981\u9009\u62E9\u90A3\u4E2A
+    database: 0
+    port: 6379
