@@ -1,10 +1,13 @@
 package com.tangwh.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpRequest;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.websocket.server.PathParam;
 
 /**
@@ -16,10 +19,22 @@ import javax.websocket.server.PathParam;
 public class HelloController {
 
     @PostMapping("/info")
+    public String postInfo(@RequestParam("name")  String info){
+
+        System.out.println(info);
+        return info;
+    }
+    @GetMapping("/info")
     public String getInfo(@RequestParam("name")  String info){
 
         System.out.println(info);
         return info;
+    }
+    @GetMapping("/ip")
+    public String getIp(HttpServletRequest request){
+
+        System.out.println(request.getRemoteAddr());
+        return request.getRemoteAddr();
     }
     /**
      *    @GetMapping("/data/reqparam/{id}")
