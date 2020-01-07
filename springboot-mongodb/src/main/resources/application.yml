@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: 192.168.91.129
+      authentication-database: admin
+      username: hello
+      password: 120208
+      port: 27017
+      database: test1
