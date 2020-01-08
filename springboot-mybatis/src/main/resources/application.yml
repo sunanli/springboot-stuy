@@ -4,13 +4,13 @@ spring:
       type: com.alibaba.druid.pool.DruidDataSource
       username: root
       password: root
-      url: jdbc:mysql://localhost:3306/javaboy?serverTimezone=UTC
+      url: jdbc:mysql://localhost:3306/javaboy?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
       driver-class-name: com.mysql.cj.jdbc.Driver
     two:
       type: com.alibaba.druid.pool.DruidDataSource
       username: root
       password: root
-      url: jdbc:mysql://localhost:3306/javaboy2?serverTimezone=UTC
+      url: jdbc:mysql://localhost:3306/javaboy2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
       driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   type-aliases-package: com.tangwh.pojo
