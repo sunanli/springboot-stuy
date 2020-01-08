@@ -1,0 +1,7 @@
+## 手工设置用户名 密码
+#spring:
+#  security:
+#    user:
+#      password: 120208
+#      name: user
+#      roles: admin
