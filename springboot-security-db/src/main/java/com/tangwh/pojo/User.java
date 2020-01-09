@@ -147,6 +147,7 @@ public class User implements UserDetails {
     @Override
     public boolean isEnabled() {
 
+
         // 注意删除上面的  字段get方法
         return enabled;
     }
