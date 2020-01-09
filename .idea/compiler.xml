@@ -27,15 +27,16 @@
         <module name="springboot-exception" />
         <module name="springboot-cache-ehcache" />
         <module name="springboot-servlet" />
+        <module name="springboot-oauth2" />
         <module name="springboot-thymeleaf" />
         <module name="springboot-json" />
-        <module name="ssmDemo" />
         <module name="springboot-jsp" />
+        <module name="springboot-cors2" />
         <module name="springboot-cors1" />
         <module name="springboot-mongodb" />
         <module name="springboot-excel" />
         <module name="springboot-aop" />
-        <module name="springboot-cors2" />
+        <module name="ssmDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -60,6 +61,7 @@
       <module name="springboot-jsp" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-oauth2" target="1.8" />
       <module name="springboot-pathmapping" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-restfull" target="1.8" />
@@ -97,6 +99,7 @@
       <module name="springboot-jsp" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-oauth2" options="-parameters" />
       <module name="springboot-pathmapping" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-restfull" options="-parameters" />
