@@ -31,6 +31,7 @@ public class FileUploadController {
         String format = sdf.format(new Date());
 
         String realPath = request.getServletContext().getRealPath("/img") + format;
+        System.out.println("文件的路径"+realPath);
 
         // 需要保存的文件夹
         File folder = new File(realPath);
