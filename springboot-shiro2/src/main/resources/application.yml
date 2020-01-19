@@ -1,0 +1,9 @@
+shiro:
+  enabled: true
+  unauthorizedUrl: /unauthorizedUrl
+  web:
+    enabled: true
+  # 登录成功的url
+  successUrl: /success
+  # 登录的url
+  loginUrl: /login
