@@ -1,0 +1,8 @@
+spring:
+  activemq:
+    broker-url: tcp://192.168.91.129:61616
+    #返回的消息可以是字符串
+    packages:
+      trust-all: true
+    user: admin
+    password: admin
