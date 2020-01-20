@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 192.168.91.129
+    username: guest
+    password: guest
+    # 端口由于在docker中安装的rabbitmq 端口随意指定的
+    port: 32771
