@@ -1,7 +1,7 @@
 spring:
   mail:
     host: smtp.163.com
-    username: t2678691035@qq.com
+    username: t2678691035@163.com
     #授权码:
     password: twh123456
     default-encoding: UTF-8
@@ -10,3 +10,5 @@ spring:
         smtp:
           socketFactory:
             class: javax.net.ssl.SSLSocketFactory
+            # 邮件的日志过程 打印
+        debug: true
