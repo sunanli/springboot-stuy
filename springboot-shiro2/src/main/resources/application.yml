@@ -3,7 +3,7 @@ shiro:
   unauthorizedUrl: /unauthorizedUrl
   web:
     enabled: true
-  # 登录成功的url
+  # 鐧诲綍鎴愬姛鐨剈rl
   successUrl: /success
-  # 登录的url
+  # 鐧诲綍鐨剈rl
   loginUrl: /login
