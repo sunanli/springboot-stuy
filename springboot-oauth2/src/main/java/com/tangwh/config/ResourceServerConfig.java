@@ -1,4 +1,4 @@
-package com.config;
+package com.tangwh.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
