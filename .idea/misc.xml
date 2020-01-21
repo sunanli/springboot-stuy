@@ -41,6 +41,15 @@
         <option value="$PROJECT_DIR$/springboot-security-db/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security-dy/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security-json/pom.xml" />
+        <option value="$PROJECT_DIR$/fileupload2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fileupload2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-email/pom.xml" />
       </list>
     </option>
   </component>
