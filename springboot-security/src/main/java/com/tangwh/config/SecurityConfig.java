@@ -133,8 +133,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         } else {
                             map.put("msg", "登录失败");
                         }
-
-
                         // 返回用户信息 对象
                         out.write(new ObjectMapper().writeValueAsString(map));
 
