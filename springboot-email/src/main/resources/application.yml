@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: t2678691035@qq.com
+    #授权码:
+    password: twh123456
+    default-encoding: UTF-8
+    protocol:
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
