@@ -1,0 +1,36 @@
+# 打开端点 默认是false
+management:
+  endpoint:
+    shutdown:
+      #开启端点后需要暴露
+      # 关闭 默认的端点
+      enabled: true
+       # 当我这个请求时认证后的请求 那么显示详细信息
+    health:
+      show-details: when_authorized
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  #  endpoints:
+#    enabled-by-default: false
+
+
+spring:
+  security:
+    user:
+      name: javaboy
+      password: 123
+      roles: ADMIN
+
+# Info端点配置
+
+info:
+  app:
+    encoding: @project.build.sourceEncoding@
+    java:
+     soutce: @java.version@
+     target: @java.version@
+  author:
+    name: javaboy
+    address: www.javaboy.boy
