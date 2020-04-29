@@ -6,26 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-elasticsearch-api" />
         <module name="springboot-websocket" />
         <module name="springboot-mybatis" />
         <module name="springboot-interceptor" />
         <module name="ssmDemo" />
         <module name="springboot-pathmapping" />
+        <module name="springboot-actuator-servcer" />
         <module name="springbooty-webcomponent" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-security-dy" />
         <module name="springboot-hello" />
-        <module name="springboot-email" />
+        <module name="springboot-cors2" />
         <module name="springboot-redis" />
         <module name="springboot-fileupload" />
         <module name="springboot-jpa" />
+        <module name="springboot-swagger2" />
         <module name="springboot-security" />
-        <module name="spingboot-restfull" />
+        <module name="springboot-elasicsearch-jingdong" />
         <module name="springboot-security-db" />
         <module name="springboot-activemq" />
         <module name="springboot-freemaker" />
         <module name="springboot-security-jwt" />
-        <module name="springboot-session" />
+        <module name="springboot-json" />
+        <module name="springboot-actuator" />
+        <module name="springboot-fileupload-fastdfs" />
         <module name="springboot-test" />
         <module name="springboot-cache-redis" />
         <module name="springboot-jdbctemplate" />
@@ -36,32 +41,37 @@
         <module name="springboot-servlet" />
         <module name="springboot-oauth2" />
         <module name="springboot-thymeleaf" />
-        <module name="springboot-security-json" />
+        <module name="springboot-timed-quartz" />
+        <module name="springboot-session" />
         <module name="springboot-shiro" />
-        <module name="springboot-json" />
+        <module name="springboot-email" />
+        <module name="spingboot-restfull" />
+        <module name="springboot-timed-schedule" />
         <module name="springboot-jsp" />
         <module name="springboot-cors1" />
         <module name="springboot-mongodb" />
         <module name="springboot-excel" />
         <module name="springboot-aop" />
-        <module name="springboot-cors2" />
+        <module name="springboot-security-json" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="javassm" target="1.5" />
       <module name="spingboot-restfull" target="1.8" />
       <module name="springboot-activemq" target="1.8" />
+      <module name="springboot-actuator" target="1.8" />
+      <module name="springboot-actuator-servcer" target="1.8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-cache-ehcache" target="1.8" />
       <module name="springboot-cache-redis" target="1.8" />
       <module name="springboot-cors1" target="1.8" />
       <module name="springboot-cors2" target="1.8" />
+      <module name="springboot-elasicsearch-jingdong" target="1.8" />
+      <module name="springboot-elasticsearch-api" target="1.8" />
       <module name="springboot-email" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-exception" target="1.8" />
-      <module name="springboot-filesupload" target="1.8" />
       <module name="springboot-fileupload" target="1.8" />
+      <module name="springboot-fileupload-fastdfs" target="1.8" />
       <module name="springboot-fileupload2" target="1.8" />
       <module name="springboot-freemaker" target="1.8" />
       <module name="springboot-hello" target="1.8" />
@@ -76,18 +86,19 @@
       <module name="springboot-pathmapping" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis" target="1.8" />
-      <module name="springboot-restfull" target="1.8" />
       <module name="springboot-security" target="1.8" />
       <module name="springboot-security-db" target="1.8" />
       <module name="springboot-security-dy" target="1.8" />
       <module name="springboot-security-json" target="1.8" />
       <module name="springboot-security-jwt" target="1.8" />
-      <module name="springboot-servlet" target="1.8" />
       <module name="springboot-session" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-shiro2" target="1.8" />
+      <module name="springboot-swagger2" target="1.8" />
       <module name="springboot-test" target="1.8" />
       <module name="springboot-thymeleaf" target="1.8" />
+      <module name="springboot-timed-quartz" target="1.8" />
+      <module name="springboot-timed-schedule" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
       <module name="springbooty-webcomponent" target="1.8" />
       <module name="ssmDemo" target="1.5" />
@@ -95,19 +106,22 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
       <module name="spingboot-restfull" options="-parameters" />
       <module name="springboot-activemq" options="-parameters" />
+      <module name="springboot-actuator" options="-parameters" />
+      <module name="springboot-actuator-servcer" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-cache-ehcache" options="-parameters" />
       <module name="springboot-cache-redis" options="-parameters" />
       <module name="springboot-cors1" options="-parameters" />
       <module name="springboot-cors2" options="-parameters" />
+      <module name="springboot-elasicsearch-jingdong" options="-parameters" />
+      <module name="springboot-elasticsearch-api" options="-parameters" />
       <module name="springboot-email" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-exception" options="-parameters" />
-      <module name="springboot-filesupload" options="-parameters" />
       <module name="springboot-fileupload" options="-parameters" />
+      <module name="springboot-fileupload-fastdfs" options="-parameters" />
       <module name="springboot-fileupload2" options="-parameters" />
       <module name="springboot-freemaker" options="-parameters" />
       <module name="springboot-hello" options="-parameters" />
@@ -122,7 +136,6 @@
       <module name="springboot-pathmapping" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
-      <module name="springboot-restfull" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
       <module name="springboot-security-db" options="-parameters" />
       <module name="springboot-security-dy" options="-parameters" />
@@ -131,8 +144,11 @@
       <module name="springboot-session" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-shiro2" options="-parameters" />
+      <module name="springboot-swagger2" options="-parameters" />
       <module name="springboot-test" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="springboot-timed-quartz" options="-parameters" />
+      <module name="springboot-timed-schedule" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
       <module name="springbooty-webcomponent" options="-parameters" />
     </option>

@@ -50,6 +50,14 @@
         <option value="$PROJECT_DIR$/springboot-activemq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-email/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-timed-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-timed-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-actuator-servcer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fileupload-fastdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasicsearch-jingdong/pom.xml" />
       </list>
     </option>
   </component>
